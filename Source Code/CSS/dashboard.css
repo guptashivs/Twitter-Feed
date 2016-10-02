@@ -1,0 +1,222 @@
+	header, section, nav{
+		display: block; 
+	}
+
+	body{
+		margin:0;
+		background-color: #f5f8fa;
+		font-family: Arial;
+	}
+
+	.max-width-4 {
+		max-width: 52rem;
+	}
+
+	ul{
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-left: 0;
+	}
+	strong{
+		font-size: 14px;
+	}
+
+	
+	/* Global Header style: Start*/
+	.header{
+		height: 56px;
+		width: 100%;
+		border-bottom: 1px solid #e6e6e6;
+		overflow: hidden;
+		min-width: 690px;
+		display: inline-flex;
+		align-items: center; 
+		background-color: #ffffff;
+	}
+	.rightNav{
+		margin-left: auto;
+	}
+
+	.leftNav li{
+		margin-left: 10px;
+		height: 56px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.leftNav  i{
+		width: 1.8em;
+		height: 1.8em;
+		line-height: 1.8em;
+		border-radius: 2.9em;
+		border: 1px solid #e6e6e6;
+		padding: 4px;
+		margin: 11px;
+	}
+
+	.search-input{
+		height: 22px;
+		width: 164px;
+		padding: 6px 48px 6px 20px;
+		font-size: 14px;
+		line-height: 1;
+		color: #292f33;
+		border: 1px solid #e1e8ed;
+		border-radius: 21px;
+		margin-right: 29px;
+	}
+	
+	input:focus { 
+		outline: none;
+		box-shadow: 0 0 2px #e6e6e6;
+	}
+
+	.fa-search{
+		margin-left: -60px;
+		opacity: 0.3;
+	}
+
+	.fa-twitter{
+		color: #29c7fd;
+	}
+
+	
+	.twitterLogo{
+		position: absolute;
+		left: 50%;
+	}
+	.twitterfeatherLogo{
+		padding: 4px 20px 0 20px;
+		border-right: 1px solid #e6e6e6;	
+	}
+
+	.twitterfeatherLogoImage{
+		height: 40px;
+		width: 40px;  
+	}
+
+	.userProfile{
+		margin: 3px 20px 0 0;
+	}
+	
+	.userProfileImage{
+		height:40px;
+		width: 40px;
+		border-radius:6px;
+	}
+	
+	.leftNav li:hover{
+		border-bottom: 5px solid #29c7fd;
+		
+	}
+	
+	/* Global header style: End*/
+
+
+	/* Profile Navigation style : Start*/
+
+	.profileNav{
+		margin-top: 30px;
+		border: 1px solid #e6e6e6;
+		background-color: #ffffff;
+		border-top-left-radius: 2px;
+		border-top-right-radius: 2px;
+	}
+
+	.profileNavTab{
+		height:74px;
+		text-align: center;
+		padding-bottom: 74px;
+	}
+
+	.profileNav h3{
+		font-size: 14px;
+		font-weight:400; 
+		opacity: 0.3;
+		margin-top: 20px;
+		margin-bottom: 5px;
+	}
+	.profileNav span{
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	.profileNavTab:hover ,.activeTab{
+		border-bottom: 5px solid #29c7fd;
+	}
+	/* Profile Navigation style : End*/
+
+	
+	/* Profile Navigation tabs Content */
+
+	.navTabContent{
+		margin-top: 30px;
+		border: 1px solid #e6e6e6;
+		background-color: #ffffff;
+	}
+
+	.contentListItem{
+		list-style-type: none;
+		padding: 30px 16px 16px;
+		border-bottom: 1px solid #e6e6e6;
+		overflow: auto;
+	}
+
+	.contentListItem p{
+		margin-top: 6px;
+		font-size: 14px;
+	}
+	
+	.contentListItem span, .tweetActionList span{
+		opacity:0.3;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 18px;
+	}
+	
+	.tweeterProfileImg{
+		height: 48px;
+		width: 48px;
+		border-radius: 6px;
+	}
+	
+	.tweetActionList li:not(:last-child){
+		padding-right: 16px;
+	}
+
+	.tweetActionList{
+		padding-left: 0;
+		padding-top:16px;
+		padding-bottom: 6px;
+	}
+	.tweetContent{
+		padding-left:10px;
+		padding-right:8px;
+	}
+	.tweetActionList .fa{
+		opacity:0.3;
+	}
+	.fa-reply:hover, .fa-ellipsis-h:hover {
+		color: #29c7fd;
+		opacity:1.0;
+	}
+	.fa-heart:hover {
+		color: #e81c4f;
+		opacity:1.0;
+	}
+	.fa-retweet:hover {
+		color: #19cf86;
+		opacity: 1;
+	}
+	.fa-expand:hover {
+		opacity:1;
+	}
+
+	.contentListItem:hover{
+		background-color: #f5f8fa;
+	}
+
+	.inlineDisplay{
+		display: inline-block;
+	}
